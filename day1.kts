@@ -1,6 +1,7 @@
 import java.io.File
 import kotlin.system.exitProcess
 
+// loads all into memory
 File("day1.txt").readLines().apply {
     this.forEachIndexed { i, s ->
         this.subList(i+1, this.size).forEach {
@@ -11,4 +12,5 @@ File("day1.txt").readLines().apply {
         }
     }
 }
+
 exitProcess(1)
