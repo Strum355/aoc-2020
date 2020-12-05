@@ -1,3 +1,5 @@
 .idea
 target
-.js
+*.js
+package-lock.json
+node_modules
