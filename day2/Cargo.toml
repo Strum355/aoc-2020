@@ -3,3 +3,11 @@ name = "part1"
 version = "0.1.0"
 authors = ["Noah Santschi-Cooney <noah@santschi-cooney.ch>"]
 edition = "2018"
+
+[[bin]]
+name = "part1"
+path = "part1.rs"
+
+[[bin]]
+name = "part2"
+path = "part2.rs"
